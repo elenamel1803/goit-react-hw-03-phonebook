@@ -23,7 +23,7 @@ class ContactForm extends Component {
     const { contacts, onAddContact } = this.props;
 
     const newContact = {
-      id: nanoid(3),
+      id: nanoid(4),
       name: formatName(name.trim()),
       number: formatNumber(number.trim()),
     };
